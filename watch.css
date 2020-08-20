@@ -1,0 +1,60 @@
+body{
+    margin-top:2%;
+    padding: 0%;
+    background-color:palevioletred;
+  }
+  #container{
+    height: 60vw;
+    width: 60vw;
+    background: url("yellowclock.png");
+    background-size:cover;
+    margin-inline:20px; 
+    background-position:no-repeat ;
+    background-size:100%;
+    margin:auto;
+    
+    padding: 10%;
+    position: relative;
+  }
+  #hour,#minute, #second{
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+  }
+  #hour{
+    background:black;
+    height: 30%;
+    width: 1.6%;
+    top: 32%;
+    left: 49.5%;
+    border-radius: 10px;
+  }
+  #minute{
+    border-radius: 10px;
+    background: blue;
+    height:39%;
+    width: 1.4%;
+    top: 25%;
+    left: 51.5%;
+    right:30%;
+    
+    opacity:.8;
+  }
+  #second{
+    border-radius: 10px;
+    background:green;
+    height: 45%;
+    width: 2%;
+    top: 18%;
+    left: 49.8%;
+    opacity:.7;
+  }
+  #centre{
+    position: absolute;
+    border-radius: 50%;
+    background: red;
+    height: 12%;
+    width: 12%;
+    top: 57%;
+    left: 45.5%;
+  }
